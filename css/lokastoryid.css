@@ -297,7 +297,7 @@ strong {
 
 
 /*---------------------------------------
-  AVATAR IMAGE - TESTIMONIAL, AUTHOR               
+  AVATAR IMAGE - DETAILBENEFIT, AUTHOR               
 -----------------------------------------*/
 .avatar-image {
   border-radius: var(--border-radius-large);
@@ -945,15 +945,15 @@ blockquote::after {
 
 
 /*---------------------------------------
-  TESTIMONIAL CAROUSEL              
+  detailbenefit CAROUSEL              
 -----------------------------------------*/
-.testimonial-section {
+.detailbenefit-section {
   position: relative;
   overflow: hidden;
   text-align: center;
 }
 
-.testimonial-section::before {
+.detailbenefit-section::before {
   content: "";
   background-color: var(--primary-color);
   border-radius: 50%;
@@ -965,7 +965,7 @@ blockquote::after {
   height: 250px;
 }
 
-.testimonial-section::after {
+.detailbenefit-section::after {
   content: "";
   background: var(--custom-btn-bg-color);
   border-radius: 50%;
@@ -976,20 +976,20 @@ blockquote::after {
   height: 350px;
 }
 
-#testimonial-carousel .carousel-caption {
+#detailbenefit-carousel .carousel-caption {
   position: relative;
   right: 0;
   bottom: 0;
   left: 0;
 }
 
-#testimonial-carousel .carousel-title {
+#detailbenefit-carousel .carousel-title {
   background: var(--section-bg-color);
   line-height: normal;
   margin-bottom: 30px;
 }
 
-#testimonial-carousel .carousel-title::before {
+#detailbenefit-carousel .carousel-title::before {
   content: open-quote;
   color: var(--p-color);
   font-size: var(--h1-font-size);
@@ -998,7 +998,7 @@ blockquote::after {
   right: 10px;
 }
 
-#testimonial-carousel .carousel-title::after {
+#detailbenefit-carousel .carousel-title::after {
   content: close-quote;
   color: var(--p-color);
   font-size: var(--h1-font-size);
@@ -1007,11 +1007,11 @@ blockquote::after {
   left: 10px;
 }
 
-#testimonial-carousel .carousel-title {
+#detailbenefit-carousel .carousel-title {
   quotes: "“" "”" "‘" "’";
 }
 
-#testimonial-carousel .carousel-name {
+#detailbenefit-carousel .carousel-name {
   background: var(--primary-color);
   border-radius: var(--border-radius-medium);
   position: relative;
@@ -1019,7 +1019,7 @@ blockquote::after {
   padding: 10px 20px;
 }
 
-#testimonial-carousel .carousel-name::before {
+#detailbenefit-carousel .carousel-name::before {
   content: "";
   position: absolute;
   top: -10px;
@@ -1037,7 +1037,7 @@ blockquote::after {
   font-weight: var(--font-weight-semibold);
 }
 
-#testimonial-carousel .carousel-indicators {
+#detailbenefit-carousel .carousel-indicators {
   position: relative;
   top: 150px;
   bottom: auto;
@@ -1045,25 +1045,25 @@ blockquote::after {
   margin-bottom: 150px;
 }
 
-#testimonial-carousel .carousel-indicators li {
+#detailbenefit-carousel .carousel-indicators li {
   text-indent: inherit;
   background: transparent;
   margin: 0 10px; 
 }
 
-#testimonial-carousel .carousel-indicators li,
-#testimonial-carousel .carousel-indicators li::before {
+#detailbenefit-carousel .carousel-indicators li,
+#detailbenefit-carousel .carousel-indicators li::before {
   width: 45px;
   height: 45px; 
 }
 
-#testimonial-carousel .carousel-indicators .avatar-image {
+#detailbenefit-carousel .carousel-indicators .avatar-image {
   width: 45px;
   height: 45px; 
 }
 
-#testimonial-carousel .carousel-indicators .active,
-#testimonial-carousel .carousel-indicators .active .avatar-image {
+#detailbenefit-carousel .carousel-indicators .active,
+#detailbenefit-carousel .carousel-indicators .active .avatar-image {
   background: transparent;
   width: 50px; 
   height: 50px;
@@ -1526,17 +1526,17 @@ blockquote::after {
     height: 300px;
   }
 
-  .testimonial-section::before {
+  .detailbenefit-section::before {
     width: 150px;
     height: 150px;
   }
 
-  .testimonial-section::after {
+  .detailbenefit-section::after {
     width: 200px;
     height: 200px;
   }
 
-  #testimonial-carousel .carousel-caption {
+  #detailbenefit-carousel .carousel-caption {
     padding-top: 0;
   }
 
@@ -1649,13 +1649,13 @@ blockquote::after {
     height: 200px;
   }
 
-  .testimonial-section::before {
+  .detailbenefit-section::before {
     top: -50px;
     width: 100px;
     height: 100px;
   }
 
-  .testimonial-section::after {
+  .detailbenefit-section::after {
     bottom: -150px;
     width: 200px;
     height: 200px;
