@@ -789,6 +789,15 @@ strong {
   position: relative;
   padding-top: 150px;
   padding-bottom: 150px;
+
+  .news-detail-header-section2 {
+    background-image: url('../images/news/DSC08836.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 
 .news-block-top {
